@@ -5,7 +5,7 @@ secret_key = "uQ7H/Jy4v06kC9TMoXCexcRuM2lF/HfUKTkJoEcS"
 }
 
 resource "aws_elb" "bar" {
-  name               = "raham-terraform-elb"
+  name               = "sai-terraform-elb"
   availability_zones = ["ap-south-1a", "ap-south-1b"]
 
   listener {
@@ -27,6 +27,6 @@ resource "aws_elb" "bar" {
   cross_zone_load_balancing = true
   idle_timeout              = 400
   tags = {
-    Name = "raham-tf-elb"
+    Name = "sai-tf-elb"
   }
 }
