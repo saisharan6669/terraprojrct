@@ -64,10 +64,10 @@ resource "aws_security_group" "three" {
 resource "aws_s3_bucket" "four" {
   bucket ="saisharan123456"
 }
-
+/*
 resource "aws_iam_user" "nine" {
 name = "nani6669"
-}
+}*/
 resource "aws_ebs_volume" "six" {
  availability_zone = "ap-south-1b"
   size = 40
