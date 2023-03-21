@@ -1,4 +1,5 @@
-provider "aws" {
+/*
+  provider "aws" {
 region = "ap-south-1"
 access_key = "AKIA34X4X3ITFEE6HAFO"
 secret_key = "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"
@@ -75,3 +76,4 @@ resource "aws_ebs_volume" "six" {
     Name = "ebs-001"
   }
 }
+*/
