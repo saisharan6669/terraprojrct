@@ -4,7 +4,7 @@ access_key = "AKIA34X4X3ITFEE6HAFO"
 secret_key = "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"
 }
 
-resource "aws-instance" "one" {
+resource "aws_instance" "one" {
 ami = "ami-05afd67c4a44cc983"
 instance_type ="t2.micro"
 vpc_security_group_ids = [aws_security_group.three.id]
